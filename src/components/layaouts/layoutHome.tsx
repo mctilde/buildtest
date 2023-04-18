@@ -1,6 +1,6 @@
 import State from "../ui/State";
 import Scroll from "../Scroll";
-import Services from "../ui/services";
+import Services from "../ui/Services";
 import Faq from "@/components/ui/Faq";
 
 export default function Layout({}) {
