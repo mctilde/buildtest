@@ -1,6 +1,7 @@
 import { useState, forwardRef } from "react";
 import Image from "next/image";
 import Scroll from "../Scroll";
+import Link from "next/link";
 
 const Nav = forwardRef<HTMLDivElement>((_, forwardedRef) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +25,7 @@ const Nav = forwardRef<HTMLDivElement>((_, forwardedRef) => {
             className="cursor-pointer"
           />
         </div>
-        <h1 className="text-base	">We're on a Mission</h1>
+        <h1 className="text-base	">We&apos;quore on a Mission</h1>
       </div>
       <div  onClick={toggleMenu} className="cursor-pointer mr-2">
         <Image src="/menu.svg" width={18} height={7} alt="Menu" />
@@ -47,36 +48,36 @@ const Nav = forwardRef<HTMLDivElement>((_, forwardedRef) => {
             </div>
           </div>
           <div className="py-8">
-            <a
+            <Link
               href="/genesispass"
               className="block font-bold px-4 py-2 hover:bg-gray-400"
             >
               GENESIS PASS
-            </a>
-            <a
+            </Link>
+            <Link
               href="/services"
               className="block font-bold px-4 py-2 hover:bg-gray-400"
             >
               SERVICES
-            </a>
-            <a
+            </Link>
+            <Link
               href="/proyects"
               className="block font-bold px-4 py-2 hover:bg-gray-400"
             >
               PROYECTS
-            </a>
-            <a
+            </Link>
+            <Link
               href="/nft"
               className="block font-bold px-4 py-2 hover:bg-gray-400"
             >
               NFT
-            </a>
-            <a
+            </Link>
+            <Link
               href="/faq"
               className="block font-bold px-4 py-2 hover:bg-gray-400"
             >
               FAQ
-            </a>
+            </Link>
             <div className="flex gap-5 px-4 py-2 opacity-40	font-bold">
               <div>PRATFORM</div>
               <div>COMING SOON</div>

@@ -1,16 +1,17 @@
+import Nav from "@/components/ui/Nav";
+import Layout from "@/components/layaouts/layoutHome";
+import Head from "next/head";
 
-import Nav from '@/components/ui/Nav'
-import { Inter } from 'next/font/google'
-import Layout from '@/components/layaouts/layoutHome'
-
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-  <div className=''>
-<Nav/>
-<Layout></Layout>
-  </div>
-  )
+    <div className="">
+      <Head>
+        <title>Build Test</title>
+        <link rel="icon" href="/nxodetor.svg" />
+      </Head>
+      <Nav />
+      <Layout></Layout>
+    </div>
+  );
 }

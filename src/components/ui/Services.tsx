@@ -75,7 +75,7 @@ const Services = forwardRef<HTMLDivElement>((_, forwardedRef) => {
             validating, and securing their network through a transparent
             process. Node Army does not offer or promote its own Node Army
             yield, but rewards are transparently distributed on the blockchain
-            according to the underlying project's protocol and tokenomics.
+            according to the underlying project&apos;s protocol and tokenomics.
           </p>
         </div>
         <div className="pt-9">

@@ -10,10 +10,10 @@ const Scroll = forwardRef<HTMLDivElement>((_, forwardedRef) => {
           <div key={v} className="relative whitespace-nowrap">
             <div className="flex animate-customScroll">
               <span className="mx-14 my-3 text-[#0E0E0E] text-base font-bold">
-                WE'RE ON A MISSION!
+                WE&apos;RE ON A MISSION!
               </span>
               <span className="mx-14 my-3 text-[#0E0E0E] text-base font-bold">
-                WE'RE ON A MISSION!
+                WE&apos;RE ON A MISSION!
               </span>
             </div>
           </div>
